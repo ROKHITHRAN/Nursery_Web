@@ -1,0 +1,8 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow the cards to wrap */
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards */
+    width: 100%; /* Let the container take full width */
+    align-items: center;
+}
