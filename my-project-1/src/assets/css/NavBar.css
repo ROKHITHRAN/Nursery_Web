@@ -1,0 +1,32 @@
+.container_1{
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    background-color:rgb(161, 225, 65);
+    justify-content: center;
+    align-items: center;
+}
+.Nav {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0; /* Center horizontally */
+} 
+.menu{
+    margin-top: 35px;
+    margin-right: 300px;
+}
+.ele{
+    display: flex;
+    list-style-type: none;
+}
+.el{
+    margin-right: 100px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
