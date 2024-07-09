@@ -1,0 +1,48 @@
+.head {
+    width: 100%;
+    color: rgb(17, 17, 16);
+    background-color: rgb(228, 255, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px 0; /* Added padding for spacing */
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px; /* Added margin for spacing between logo and name */
+  }
+  
+  .name {
+    font-family: 'CustomFont', sans-serif; /* Use your custom font */
+    font-size: 40px;
+    color: rgb(53, 81, 10);
+  }
+  
+  .u_list {
+    list-style: none;
+  }
+  
+  .icons {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  

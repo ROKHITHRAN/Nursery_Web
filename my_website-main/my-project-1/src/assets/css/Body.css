@@ -1,0 +1,30 @@
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 255, 188);
+}
+
+.paper {
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-list li {
+    margin-bottom: 20px;
+}
+
+.about-list h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.AbtHead{
+    color: rgb(53, 81, 10);
+}

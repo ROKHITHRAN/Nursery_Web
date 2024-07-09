@@ -1,0 +1,38 @@
+.plant_container{
+    height: fit-content;
+    background-color:rgb(161, 225, 65);
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin-top: 10px;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.list_2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-right: 35px;
+}
+@media (max-width: 1200px) {
+    .list {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      justify-content: space-around;
+    }
+    .list_2
+    {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      justify-content: space-around;
+    }
+    .plants{
+        margin-top: 100px;
+    }
+}

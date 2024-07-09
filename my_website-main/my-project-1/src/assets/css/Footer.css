@@ -1,0 +1,31 @@
+.footer {
+   width: 100%;
+   height: fit-content;
+   background-color: rgb(161, 225, 65);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0; /* Add padding if needed */
+}
+
+.footer_list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   gap: 100px; /* Adjust gap between items if needed */
+   justify-content: space-around;
+}
+
+.footer_list li {
+   margin-top: 50px;
+}
+
+.linkFooter {
+   color: rgb(21, 84, 28);
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.link:hover {
+   text-decoration: underline;
+}

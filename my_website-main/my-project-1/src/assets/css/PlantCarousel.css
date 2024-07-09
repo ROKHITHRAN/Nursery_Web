@@ -1,0 +1,39 @@
+.content{
+    align-items: center;
+    text-align: center;
+}
+.plantCarousel_container{
+    background-color:rgb(161, 225, 65);
+    height: 600px;
+}
+.card{
+    margin-left: 30px;
+    width: 200px;
+}
+.plant{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.plant:hover {
+    transform: translateY(-10px); /* Moves the card up */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+  }
+.plant_names{
+    height: 400px;
+}
+.main_card{
+    position: relative;
+}
+.front{
+    position: absolute;
+}
+.back{
+    position: absolute;
+}
+.plant_links{
+    margin-top: 50px;
+    font-family: "Algerian";
+    font-size: large;
+}
