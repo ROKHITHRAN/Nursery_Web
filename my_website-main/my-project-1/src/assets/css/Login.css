@@ -1,0 +1,19 @@
+.login{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.login-cont {
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.login-gif {
+    background-image: url('../images/Animation\ -\ 1729961104772.gif');
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 60vh;
+}

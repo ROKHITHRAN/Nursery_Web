@@ -18,6 +18,8 @@ import Routing from './components/Routing';
 import Side from './components/Sidebar';
 import ResponsiveDrawer from './components/Sidebar';
 import AuthProvider from './components/context/AdminContext';
+import Login from './components/Login';
+import DemoCarousel from './components/car';
 
 function App() {
   return (
@@ -30,12 +32,14 @@ function App() {
       {/* <PlantCarousel></PlantCarousel> */}
       {/* <Contact></Contact>
       <Footer></Footer> */}
-      <AuthProvider>
+      {/* <AuthProvider>
         <BrowserRouter>
-          <Routing/>
+          <Routing/> */}
           {/* <ResponsiveDrawer/> */}
-        </BrowserRouter>
-      </AuthProvider>
+        {/* </BrowserRouter>
+      </AuthProvider> */}
+      {/* <Login/> */}
+      <DemoCarousel/>
       {/* <Routing/> */}
     </div>
   );
